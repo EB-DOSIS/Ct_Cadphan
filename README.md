@@ -7,4 +7,4 @@ This is a ESAPI binary plugin for use in ARIA Eclipse environment. The initial p
 
 This plugin needs MS Excel and a special Excel file for proper operation.
 
-The creators of this project are Dr. Eyck Blank (Ruppiner Kliniken, Neuruppin / Germany) and Maximilian Grohmann (UKE Hamburg / Germany). Many thanks für coding assistance to him!
+The creators of this project are Dr. Eyck Blank (Ruppiner Kliniken, Neuruppin / Germany) and Maximilian Grohmann (UKE Hamburg / Germany). Many thanks for coding assistance to him!
