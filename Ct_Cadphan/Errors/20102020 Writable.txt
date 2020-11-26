@@ -1,0 +1,35 @@
+There was a problem while executing the script 'CT_CadPhan.esapi.dll'.
+
+The script 'CT_CadPhan.esapi (1.0.0.1)' was not allowed to modify patient data.
+
+This script is read-only. The script must be marked explicitely as a writeable script by the script developer.
+
+
+
+
+Q:\ESAPI\Plugins\Ct_CadPhan\CT_CadPhan.esapi.dll
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> VMS.TPS.Common.Model.ScriptExecutionException: There was a problem while executing the script 'Q:\ESAPI\Plugins\Ct_CadPhan\CT_CadPhan.esapi.dll' (ESAPI: VMS.TPS.Common.Model.API, Version=1.0.300.11, Culture=neutral, PublicKeyToken=305b81e210ec4b89).  ---> System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> VMS.TPS.Common.Model.UnauthorizedScriptingAPIAccessException: The script 'CT_CadPhan.esapi (1.0.0.1)' was not allowed to modify patient data.
+
+This script is read-only. The script must be marked explicitely as a writeable script by the script developer.
+
+
+   at VMS.TPS.Common.Model.ApplicationScriptExecutionGuard.BeginModifications(IPatient patient)
+   at VMS.TPS.Script.Execute(ScriptContext context, Window window) in Q:\ESAPI\Projects\Ct_Cadphan\Projects\CT_CadPhan\CT_CadPhan.cs:line 356
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at VMS.TPS.Script.Engine.InvokeMethod(Object obj, String methodName, Object[] parameters)
+   at VMS.TPS.Script.Engine.ExecuteWindowedScript(String windowTitle, Object scriptObject, ScriptContext scriptContext, ScriptEnvironment scriptEnvironment)
+   at VMS.TPS.Script.Engine.Execute(String fileName)
+   --- End of inner exception stack trace ---
+   at VMS.TPS.Script.Engine.Execute(String fileName)
+   at VMS.TPS.Script.Extension.Execute(IntPtr parentWindow)
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at vhost.TpsNetExtension.Execute(TpsNetExtension* , HWND__* parentWindowHandle)

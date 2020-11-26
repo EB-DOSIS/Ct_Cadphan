@@ -1,0 +1,6 @@
+Q:\ESAPI\Projects\Ct_Cadphan\Projects\CT_CadPhan\obj\x64\Debug\CT_CadPhan.csprojAssemblyReference.cache
+Q:\ESAPI\Projects\Ct_Cadphan\Projects\CT_CadPhan\obj\x64\Debug\CT_CadPhan.csproj.CoreCompileInputs.cache
+Q:\ESAPI\Projects\Ct_Cadphan\plugins\CT_CadPhan.esapi.dll
+Q:\ESAPI\Projects\Ct_Cadphan\plugins\CT_CadPhan.esapi.pdb
+Q:\ESAPI\Projects\Ct_Cadphan\Projects\CT_CadPhan\obj\x64\Debug\CT_CadPhan.esapi.dll
+Q:\ESAPI\Projects\Ct_Cadphan\Projects\CT_CadPhan\obj\x64\Debug\CT_CadPhan.esapi.pdb
